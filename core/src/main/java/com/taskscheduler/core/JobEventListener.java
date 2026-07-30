@@ -15,6 +15,6 @@ package com.taskscheduler.core;
  * call for you -- see the persistence listener added in the Spring layer.
  */
 @FunctionalInterface
-public interface JobEventListener {
+public interface JobEventListener  {
     void onJobEvent(JobEvent event);
 }
